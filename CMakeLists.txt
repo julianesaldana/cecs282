@@ -3,4 +3,4 @@ project(cecs282)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(cecs282 main.cpp)
+add_executable(cecs282 lab1.cpp)

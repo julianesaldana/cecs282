@@ -142,32 +142,32 @@ cecs282/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cecs282.dir\build.make CMakeFiles/cecs282.dir/build
 .PHONY : cecs282/fast
 
-main.obj: main.cpp.obj
+lab1.obj: lab1.cpp.obj
 
-.PHONY : main.obj
+.PHONY : lab1.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cecs282.dir\build.make CMakeFiles/cecs282.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+lab1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cecs282.dir\build.make CMakeFiles/cecs282.dir/lab1.cpp.obj
+.PHONY : lab1.cpp.obj
 
-main.i: main.cpp.i
+lab1.i: lab1.cpp.i
 
-.PHONY : main.i
+.PHONY : lab1.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cecs282.dir\build.make CMakeFiles/cecs282.dir/main.cpp.i
-.PHONY : main.cpp.i
+lab1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cecs282.dir\build.make CMakeFiles/cecs282.dir/lab1.cpp.i
+.PHONY : lab1.cpp.i
 
-main.s: main.cpp.s
+lab1.s: lab1.cpp.s
 
-.PHONY : main.s
+.PHONY : lab1.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cecs282.dir\build.make CMakeFiles/cecs282.dir/main.cpp.s
-.PHONY : main.cpp.s
+lab1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cecs282.dir\build.make CMakeFiles/cecs282.dir/lab1.cpp.s
+.PHONY : lab1.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... cecs282
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... lab1.obj
+	@echo ... lab1.i
+	@echo ... lab1.s
 .PHONY : help
 
 

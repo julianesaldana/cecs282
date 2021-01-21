@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Julian/Desktop/programming/cecs282/main.cpp">
+		<Unit filename="C:/Users/Julian/Desktop/programming/cecs282/lab1.cpp">
 			<Option target="cecs282"/>
 		</Unit>
 		<Unit filename="C:/Users/Julian/Desktop/programming/cecs282/CMakeLists.txt">

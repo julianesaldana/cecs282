@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cecs282.dir/main.cpp.obj"
+  "CMakeFiles/cecs282.dir/lab1.cpp.obj"
   "cecs282.exe"
   "cecs282.exe.manifest"
   "cecs282.pdb"

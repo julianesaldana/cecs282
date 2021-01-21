@@ -76,27 +76,27 @@ include CMakeFiles/cecs282.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cecs282.dir/flags.make
 
-CMakeFiles/cecs282.dir/main.cpp.obj: CMakeFiles/cecs282.dir/flags.make
-CMakeFiles/cecs282.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Julian\Desktop\programming\cecs282\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cecs282.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cecs282.dir\main.cpp.obj -c C:\Users\Julian\Desktop\programming\cecs282\main.cpp
+CMakeFiles/cecs282.dir/lab1.cpp.obj: CMakeFiles/cecs282.dir/flags.make
+CMakeFiles/cecs282.dir/lab1.cpp.obj: ../lab1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Julian\Desktop\programming\cecs282\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cecs282.dir/lab1.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cecs282.dir\lab1.cpp.obj -c C:\Users\Julian\Desktop\programming\cecs282\lab1.cpp
 
-CMakeFiles/cecs282.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cecs282.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Julian\Desktop\programming\cecs282\main.cpp > CMakeFiles\cecs282.dir\main.cpp.i
+CMakeFiles/cecs282.dir/lab1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cecs282.dir/lab1.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Julian\Desktop\programming\cecs282\lab1.cpp > CMakeFiles\cecs282.dir\lab1.cpp.i
 
-CMakeFiles/cecs282.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cecs282.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Julian\Desktop\programming\cecs282\main.cpp -o CMakeFiles\cecs282.dir\main.cpp.s
+CMakeFiles/cecs282.dir/lab1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cecs282.dir/lab1.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Julian\Desktop\programming\cecs282\lab1.cpp -o CMakeFiles\cecs282.dir\lab1.cpp.s
 
 # Object files for target cecs282
 cecs282_OBJECTS = \
-"CMakeFiles/cecs282.dir/main.cpp.obj"
+"CMakeFiles/cecs282.dir/lab1.cpp.obj"
 
 # External object files for target cecs282
 cecs282_EXTERNAL_OBJECTS =
 
-cecs282.exe: CMakeFiles/cecs282.dir/main.cpp.obj
+cecs282.exe: CMakeFiles/cecs282.dir/lab1.cpp.obj
 cecs282.exe: CMakeFiles/cecs282.dir/build.make
 cecs282.exe: CMakeFiles/cecs282.dir/linklibs.rsp
 cecs282.exe: CMakeFiles/cecs282.dir/objects1.rsp
