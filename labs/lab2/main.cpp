@@ -1,5 +1,5 @@
 // Claudia Fierro, Julian Saldana, Sean Heidari, William Pham
-// Submission time:
+// Submission time - 8:05
 // Class (CECS 282-06)
 // Project Name (Prog 0 – Happy Birthday)
 // Due Date (1/21/2021)
