@@ -4,14 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Julian/Desktop/programming/cecs282/progs/prog1/Can.cpp" "C:/Users/Julian/Desktop/programming/cecs282/progs/prog1/cmake-build-debug/CMakeFiles/prog1.dir/Can.cpp.obj"
-  "C:/Users/Julian/Desktop/programming/cecs282/progs/prog1/canMain.cpp" "C:/Users/Julian/Desktop/programming/cecs282/progs/prog1/cmake-build-debug/CMakeFiles/prog1.dir/canMain.cpp.obj"
+  "C:/Users/Julian/Desktop/programming/cecs282/labs/lab3/main.cpp" "C:/Users/Julian/Desktop/programming/cecs282/labs/lab3/cmake-build-debug/CMakeFiles/lab3.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../."
   )
 
 # Targets to which this target links.

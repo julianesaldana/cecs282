@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/prog1.dir/Can.cpp.obj"
-  "CMakeFiles/prog1.dir/solitairePrime.cpp.obj"
+  "CMakeFiles/prog1.dir/canMain.cpp.obj"
   "libprog1.dll.a"
   "prog1.exe"
   "prog1.exe.manifest"

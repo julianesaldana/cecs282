@@ -67,24 +67,13 @@ RM = C:\Users\Julian\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.6682.18
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Julian\Desktop\programming\cecs282\progs\prog1
+CMAKE_SOURCE_DIR = C:\Users\Julian\Desktop\programming\cecs282\labs\lab3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Julian\Desktop\programming\cecs282\progs\prog1\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Julian\Desktop\programming\cecs282\labs\lab3\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\Julian\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.6682.181\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -97,11 +86,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	C:\Users\Julian\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.6682.181\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Julian\Desktop\programming\cecs282\progs\prog1\cmake-build-debug\CMakeFiles C:\Users\Julian\Desktop\programming\cecs282\progs\prog1\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Julian\Desktop\programming\cecs282\labs\lab3\cmake-build-debug\CMakeFiles C:\Users\Julian\Desktop\programming\cecs282\labs\lab3\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Julian\Desktop\programming\cecs282\progs\prog1\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Julian\Desktop\programming\cecs282\labs\lab3\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,71 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named prog1
+# Target rules for targets named lab3
 
 # Build rule for target.
-prog1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 prog1
-.PHONY : prog1
+lab3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab3
+.PHONY : lab3
 
 # fast build rule for target.
-prog1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prog1.dir\build.make CMakeFiles/prog1.dir/build
-.PHONY : prog1/fast
+lab3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/build
+.PHONY : lab3/fast
 
-Can.obj: Can.cpp.obj
+main.obj: main.cpp.obj
 
-.PHONY : Can.obj
-
-# target to build an object file
-Can.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prog1.dir\build.make CMakeFiles/prog1.dir/Can.cpp.obj
-.PHONY : Can.cpp.obj
-
-Can.i: Can.cpp.i
-
-.PHONY : Can.i
-
-# target to preprocess a source file
-Can.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prog1.dir\build.make CMakeFiles/prog1.dir/Can.cpp.i
-.PHONY : Can.cpp.i
-
-Can.s: Can.cpp.s
-
-.PHONY : Can.s
-
-# target to generate assembly for a file
-Can.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prog1.dir\build.make CMakeFiles/prog1.dir/Can.cpp.s
-.PHONY : Can.cpp.s
-
-canMain.obj: canMain.cpp.obj
-
-.PHONY : canMain.obj
+.PHONY : main.obj
 
 # target to build an object file
-canMain.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prog1.dir\build.make CMakeFiles/prog1.dir/canMain.cpp.obj
-.PHONY : canMain.cpp.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-canMain.i: canMain.cpp.i
+main.i: main.cpp.i
 
-.PHONY : canMain.i
+.PHONY : main.i
 
 # target to preprocess a source file
-canMain.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prog1.dir\build.make CMakeFiles/prog1.dir/canMain.cpp.i
-.PHONY : canMain.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-canMain.s: canMain.cpp.s
+main.s: main.cpp.s
 
-.PHONY : canMain.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-canMain.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prog1.dir\build.make CMakeFiles/prog1.dir/canMain.cpp.s
-.PHONY : canMain.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -204,13 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... prog1
-	@echo ... Can.obj
-	@echo ... Can.i
-	@echo ... Can.s
-	@echo ... canMain.obj
-	@echo ... canMain.i
-	@echo ... canMain.s
+	@echo ... lab3
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

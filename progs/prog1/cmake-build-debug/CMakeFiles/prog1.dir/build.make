@@ -90,30 +90,30 @@ CMakeFiles/prog1.dir/Can.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prog1.dir/Can.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Julian\Desktop\programming\cecs282\progs\prog1\Can.cpp -o CMakeFiles\prog1.dir\Can.cpp.s
 
-CMakeFiles/prog1.dir/solitairePrime.cpp.obj: CMakeFiles/prog1.dir/flags.make
-CMakeFiles/prog1.dir/solitairePrime.cpp.obj: CMakeFiles/prog1.dir/includes_CXX.rsp
-CMakeFiles/prog1.dir/solitairePrime.cpp.obj: ../solitairePrime.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Julian\Desktop\programming\cecs282\progs\prog1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/prog1.dir/solitairePrime.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\prog1.dir\solitairePrime.cpp.obj -c C:\Users\Julian\Desktop\programming\cecs282\progs\prog1\solitairePrime.cpp
+CMakeFiles/prog1.dir/canMain.cpp.obj: CMakeFiles/prog1.dir/flags.make
+CMakeFiles/prog1.dir/canMain.cpp.obj: CMakeFiles/prog1.dir/includes_CXX.rsp
+CMakeFiles/prog1.dir/canMain.cpp.obj: ../canMain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Julian\Desktop\programming\cecs282\progs\prog1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/prog1.dir/canMain.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\prog1.dir\canMain.cpp.obj -c C:\Users\Julian\Desktop\programming\cecs282\progs\prog1\canMain.cpp
 
-CMakeFiles/prog1.dir/solitairePrime.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prog1.dir/solitairePrime.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Julian\Desktop\programming\cecs282\progs\prog1\solitairePrime.cpp > CMakeFiles\prog1.dir\solitairePrime.cpp.i
+CMakeFiles/prog1.dir/canMain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prog1.dir/canMain.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Julian\Desktop\programming\cecs282\progs\prog1\canMain.cpp > CMakeFiles\prog1.dir\canMain.cpp.i
 
-CMakeFiles/prog1.dir/solitairePrime.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prog1.dir/solitairePrime.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Julian\Desktop\programming\cecs282\progs\prog1\solitairePrime.cpp -o CMakeFiles\prog1.dir\solitairePrime.cpp.s
+CMakeFiles/prog1.dir/canMain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prog1.dir/canMain.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Julian\Desktop\programming\cecs282\progs\prog1\canMain.cpp -o CMakeFiles\prog1.dir\canMain.cpp.s
 
 # Object files for target prog1
 prog1_OBJECTS = \
 "CMakeFiles/prog1.dir/Can.cpp.obj" \
-"CMakeFiles/prog1.dir/solitairePrime.cpp.obj"
+"CMakeFiles/prog1.dir/canMain.cpp.obj"
 
 # External object files for target prog1
 prog1_EXTERNAL_OBJECTS =
 
 prog1.exe: CMakeFiles/prog1.dir/Can.cpp.obj
-prog1.exe: CMakeFiles/prog1.dir/solitairePrime.cpp.obj
+prog1.exe: CMakeFiles/prog1.dir/canMain.cpp.obj
 prog1.exe: CMakeFiles/prog1.dir/build.make
 prog1.exe: CMakeFiles/prog1.dir/linklibs.rsp
 prog1.exe: CMakeFiles/prog1.dir/objects1.rsp

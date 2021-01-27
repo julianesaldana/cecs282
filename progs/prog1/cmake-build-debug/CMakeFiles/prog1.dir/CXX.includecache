@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Julian/Desktop/programming/cecs282/progs/prog1/Can.cpp
+Can.h
+C:/Users/Julian/Desktop/programming/cecs282/progs/prog1/Can.h
+iostream
+-
+
+C:/Users/Julian/Desktop/programming/cecs282/progs/prog1/Can.h
+string
+-
+

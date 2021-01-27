@@ -12,5 +12,5 @@ Can::Can(string c, int v) {
 }
 
 void Can::display() {       // Can:: is the scope operator
-    cout << content << ":" << volume;
+    cout << content << ":" << volume << "\n";
 }
