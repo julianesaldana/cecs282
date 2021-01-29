@@ -142,6 +142,33 @@ lab4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/build
 .PHONY : lab4/fast
 
+Can.obj: Can.cpp.obj
+
+.PHONY : Can.obj
+
+# target to build an object file
+Can.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/Can.cpp.obj
+.PHONY : Can.cpp.obj
+
+Can.i: Can.cpp.i
+
+.PHONY : Can.i
+
+# target to preprocess a source file
+Can.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/Can.cpp.i
+.PHONY : Can.cpp.i
+
+Can.s: Can.cpp.s
+
+.PHONY : Can.s
+
+# target to generate assembly for a file
+Can.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/Can.cpp.s
+.PHONY : Can.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... lab4
+	@echo ... Can.obj
+	@echo ... Can.i
+	@echo ... Can.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

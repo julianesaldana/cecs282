@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Julian/Desktop/programming/cecs282/labs/lab4/Can.cpp
+Can.h
+C:/Users/Julian/Desktop/programming/cecs282/labs/lab4/Can.h
+iostream
+-
+
+C:/Users/Julian/Desktop/programming/cecs282/labs/lab4/Can.h
+string
+-
+
+C:/Users/Julian/Desktop/programming/cecs282/labs/lab4/main.cpp
+iostream
+-
+Can.h
+C:/Users/Julian/Desktop/programming/cecs282/labs/lab4/Can.h
+

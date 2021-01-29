@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Julian/Desktop/programming/cecs282/labs/lab4/Can.cpp">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="C:/Users/Julian/Desktop/programming/cecs282/labs/lab4/Can.h">
+			<Option target="lab4"/>
+		</Unit>
 		<Unit filename="C:/Users/Julian/Desktop/programming/cecs282/labs/lab4/main.cpp">
 			<Option target="lab4"/>
 		</Unit>
