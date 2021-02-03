@@ -53,19 +53,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Julian\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.6682.181\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Julian\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Julian\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.6682.181\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\Julian\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Julian\Desktop\programming\cecs282\extras\prog1
+CMAKE_SOURCE_DIR = C:\Users\Julian\Desktop\cecs282\extras\prog1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Julian\Desktop\programming\cecs282\extras\prog1\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Julian\Desktop\cecs282\extras\prog1\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/prog1.dir/depend.make
@@ -79,30 +79,30 @@ include CMakeFiles/prog1.dir/flags.make
 CMakeFiles/prog1.dir/Can.cpp.obj: CMakeFiles/prog1.dir/flags.make
 CMakeFiles/prog1.dir/Can.cpp.obj: CMakeFiles/prog1.dir/includes_CXX.rsp
 CMakeFiles/prog1.dir/Can.cpp.obj: ../Can.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Julian\Desktop\programming\cecs282\extras\prog1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/prog1.dir/Can.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\prog1.dir\Can.cpp.obj -c C:\Users\Julian\Desktop\programming\cecs282\extras\prog1\Can.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Julian\Desktop\cecs282\extras\prog1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/prog1.dir/Can.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\prog1.dir\Can.cpp.obj -c C:\Users\Julian\Desktop\cecs282\extras\prog1\Can.cpp
 
 CMakeFiles/prog1.dir/Can.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prog1.dir/Can.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Julian\Desktop\programming\cecs282\extras\prog1\Can.cpp > CMakeFiles\prog1.dir\Can.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Julian\Desktop\cecs282\extras\prog1\Can.cpp > CMakeFiles\prog1.dir\Can.cpp.i
 
 CMakeFiles/prog1.dir/Can.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prog1.dir/Can.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Julian\Desktop\programming\cecs282\extras\prog1\Can.cpp -o CMakeFiles\prog1.dir\Can.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Julian\Desktop\cecs282\extras\prog1\Can.cpp -o CMakeFiles\prog1.dir\Can.cpp.s
 
 CMakeFiles/prog1.dir/main.cpp.obj: CMakeFiles/prog1.dir/flags.make
 CMakeFiles/prog1.dir/main.cpp.obj: CMakeFiles/prog1.dir/includes_CXX.rsp
 CMakeFiles/prog1.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Julian\Desktop\programming\cecs282\extras\prog1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/prog1.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\prog1.dir\main.cpp.obj -c C:\Users\Julian\Desktop\programming\cecs282\extras\prog1\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Julian\Desktop\cecs282\extras\prog1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/prog1.dir/main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\prog1.dir\main.cpp.obj -c C:\Users\Julian\Desktop\cecs282\extras\prog1\main.cpp
 
 CMakeFiles/prog1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prog1.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Julian\Desktop\programming\cecs282\extras\prog1\main.cpp > CMakeFiles\prog1.dir\main.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Julian\Desktop\cecs282\extras\prog1\main.cpp > CMakeFiles\prog1.dir\main.cpp.i
 
 CMakeFiles/prog1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prog1.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Julian\Desktop\programming\cecs282\extras\prog1\main.cpp -o CMakeFiles\prog1.dir\main.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Julian\Desktop\cecs282\extras\prog1\main.cpp -o CMakeFiles\prog1.dir\main.cpp.s
 
 # Object files for target prog1
 prog1_OBJECTS = \
@@ -118,7 +118,7 @@ prog1.exe: CMakeFiles/prog1.dir/build.make
 prog1.exe: CMakeFiles/prog1.dir/linklibs.rsp
 prog1.exe: CMakeFiles/prog1.dir/objects1.rsp
 prog1.exe: CMakeFiles/prog1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Julian\Desktop\programming\cecs282\extras\prog1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable prog1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Julian\Desktop\cecs282\extras\prog1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable prog1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\prog1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -131,6 +131,6 @@ CMakeFiles/prog1.dir/clean:
 .PHONY : CMakeFiles/prog1.dir/clean
 
 CMakeFiles/prog1.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Julian\Desktop\programming\cecs282\extras\prog1 C:\Users\Julian\Desktop\programming\cecs282\extras\prog1 C:\Users\Julian\Desktop\programming\cecs282\extras\prog1\cmake-build-debug C:\Users\Julian\Desktop\programming\cecs282\extras\prog1\cmake-build-debug C:\Users\Julian\Desktop\programming\cecs282\extras\prog1\cmake-build-debug\CMakeFiles\prog1.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Julian\Desktop\cecs282\extras\prog1 C:\Users\Julian\Desktop\cecs282\extras\prog1 C:\Users\Julian\Desktop\cecs282\extras\prog1\cmake-build-debug C:\Users\Julian\Desktop\cecs282\extras\prog1\cmake-build-debug C:\Users\Julian\Desktop\cecs282\extras\prog1\cmake-build-debug\CMakeFiles\prog1.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/prog1.dir/depend
 
