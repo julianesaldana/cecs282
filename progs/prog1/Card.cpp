@@ -20,7 +20,7 @@ void Card::setCard(char r, char s) {
     suit = s;
 }
 
-int Card::getValue(char r, char s) {
+int Card::getValue() {
     if (rank == 'T' || rank == 'J' || rank == 'Q' || rank == 'K')
         return 10;
     else if (rank == 'A')

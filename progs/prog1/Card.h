@@ -16,7 +16,7 @@ public:
     Card();
     Card(char r, char s);
     void setCard(char r, char s);
-    int getValue(char r, char s);
+    int getValue();
     void showCard();
 };
 
