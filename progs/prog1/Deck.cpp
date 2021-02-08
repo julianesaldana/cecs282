@@ -4,6 +4,8 @@
 
 #include "Deck.h"
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
 using namespace std;
 
 Deck::Deck() {
@@ -44,4 +46,18 @@ void Deck::showDeck() {
 
 Card Deck::deal() {
     return storage[top++];
+}
+
+void Deck::shuffle() {
+    srand(time(0));
+    for (int i = 0; i < sizeof(storage) / sizeof(storage[0]); i++) {
+        int randomCard = rand() % 52;
+        Card temp = storage[i];
+        storage[i] = storage[randomCard];
+        storage[randomCard] = temp;
+    }
+}
+
+int Deck::cardsLeft() {
+    return sizeof(storage) / sizeof(storage[0]) - top;
 }

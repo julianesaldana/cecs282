@@ -7,7 +7,9 @@ using namespace std;
 int main() {
     Deck test;
     test.showDeck();
-    Card temp = test.deal();
-    temp.showCard();
+    test.shuffle();
+    test.showDeck();
+    test.refreshDeck();
+    test.showDeck();
     return 0;
 }

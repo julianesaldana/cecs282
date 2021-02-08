@@ -18,8 +18,8 @@ public:
     Deck();
     void refreshDeck();
     Card deal();
-//    void shuffle();
-//    int cardsLeft();
+    void shuffle();
+    int cardsLeft();
     void showDeck();
 };
 
