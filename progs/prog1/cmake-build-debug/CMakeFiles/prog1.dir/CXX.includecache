@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Julian/Desktop/cecs282/progs/prog1/Card.h
+string
+-
+
+C:/Users/Julian/Desktop/cecs282/progs/prog1/Deck.h
+string
+-
+Card.h
+C:/Users/Julian/Desktop/cecs282/progs/prog1/Card.h
+
+C:/Users/Julian/Desktop/cecs282/progs/prog1/main.cpp
+iostream
+-
+Card.h
+C:/Users/Julian/Desktop/cecs282/progs/prog1/Card.h
+Deck.h
+C:/Users/Julian/Desktop/cecs282/progs/prog1/Deck.h
+

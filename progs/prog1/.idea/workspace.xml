@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="lab5" targetName="lab5" />
+      <config projectName="prog1" targetName="prog1" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92c6baec-0d2b-4728-9f93-349f2928bcc1" name="Default Changelist" comment="" />
+    <list default="true" id="077ab199-be6c-4773-a78f-79fdd6c9c9e9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1nxFHyNQf1tBAxwfrD4MehMLxOS" />
+  <component name="ProjectId" id="1o8hj49hBLUQkz0ey5oeZKfxugt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,10 +35,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab3" />
   </component>
   <component name="RunManager">
-    <configuration name="lab5" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab5" TARGET_NAME="lab5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab5" RUN_TARGET_NAME="lab5">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="prog1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="prog1" TARGET_NAME="prog1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="prog1" RUN_TARGET_NAME="prog1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -52,14 +56,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="92c6baec-0d2b-4728-9f93-349f2928bcc1" name="Default Changelist" comment="" />
-      <created>1612323750142</created>
+      <changelist id="077ab199-be6c-4773-a78f-79fdd6c9c9e9" name="Default Changelist" comment="" />
+      <created>1612674256724</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1612323750142</updated>
-      <workItem from="1612323751316" duration="151000" />
-      <workItem from="1612324281087" duration="290000" />
-      <workItem from="1612674777332" duration="19000" />
+      <updated>1612674256724</updated>
+      <workItem from="1612674258235" duration="10243000" />
     </task>
     <servers />
   </component>
@@ -76,6 +78,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
