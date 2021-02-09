@@ -1,3 +1,8 @@
+// Julian Saldana
+// CECS 282 SEC 05
+// Prog1 - Solitaire Prime
+// Due Date: Feb 9 2021, 8PM
+
 #include <iostream>
 #include "Card.h"
 #include "Deck.h"
