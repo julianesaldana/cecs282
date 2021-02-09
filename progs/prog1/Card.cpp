@@ -31,7 +31,7 @@ int Card::getValue() {
 
 void Card::showCard() {
     if (rank == 'T')
-        cout << "10" << suit << " ";
+        cout << "10" << suit << ", ";
     else
-        cout << rank << suit << " ";
+        cout << rank << suit << ", ";
 }
