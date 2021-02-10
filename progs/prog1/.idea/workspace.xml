@@ -43,13 +43,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="prog1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="prog1" TARGET_NAME="prog1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="prog1" RUN_TARGET_NAME="prog1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -68,6 +65,13 @@
       <workItem from="1612767599628" duration="4593000" />
       <workItem from="1612806692411" duration="4370000" />
       <workItem from="1612855494535" duration="3246000" />
+      <workItem from="1612922677941" duration="842000" />
+      <workItem from="1612923657744" duration="15000" />
+      <workItem from="1612923763873" duration="2000" />
+      <workItem from="1612923773381" duration="18000" />
+      <workItem from="1612926227102" duration="1444000" />
+      <workItem from="1612928655943" duration="668000" />
+      <workItem from="1612929463503" duration="668000" />
     </task>
     <servers />
   </component>

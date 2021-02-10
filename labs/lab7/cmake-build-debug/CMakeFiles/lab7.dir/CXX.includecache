@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Julian/Desktop/cecs282/labs/lab7/Airplane.h
+iostream
+-
+
+C:/Users/Julian/Desktop/cecs282/labs/lab7/main.cpp
+iostream
+-
+Airplane.h
+C:/Users/Julian/Desktop/cecs282/labs/lab7/Airplane.h
+
