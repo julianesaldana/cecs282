@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Julian/Desktop/cecs282/labs/lab8/main.cpp
+iostream
+-
+algorithm
+-
+cstdlib
+-
+ctime
+-
+
