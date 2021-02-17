@@ -37,11 +37,6 @@
     <property name="cf.first.check.clang-format" value="false" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="week5lab1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5lab1" TARGET_NAME="week5lab1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5lab1" RUN_TARGET_NAME="week5lab1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -62,6 +57,8 @@
       <option name="presentableId" value="Default" />
       <updated>1613534096432</updated>
       <workItem from="1613534097955" duration="211000" />
+      <workItem from="1613534525940" duration="119000" />
+      <workItem from="1613534664600" duration="35000" />
     </task>
     <servers />
   </component>
@@ -78,5 +75,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

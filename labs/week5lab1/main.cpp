@@ -4,22 +4,21 @@
 // Class (CECS 282-06)
 // Due Date : 02/16/2021
 // Week 5 Lab 1
-// Time Demoed:
+// Time Demoed: 8:02 PM
 
 #include <iostream>
 using namespace std;
 
 int Greg2Julian(int month, int day, int year) {
     int I = year;
-    int J = month;
+    int	J = month;
     int K = day;
 
-    int JD2 = K - 32075 + 1461 * (I + 4800 + (J - 14) / 12) / 4 + 367 * (J - 2 - (J - 14) / 12 * 12) / 12 -
-              3 * ((I + 4900 + (J - 14) / 12) / 100) / 4;
+    int JD2 = K - 32075 + 1461 * (I + 4800 + (J - 14) / 12) / 4 + 367 * (J - 2 - (J - 14) / 12 * 12) / 12 - 3 * ((I + 4900 + (J - 14) / 12) / 100) / 4;
     return JD2;
 }
 
-void Julian2Greg(int JD, int &month, int &day, int &year) {
+void Julian2Greg(int JD, int& month, int& day, int& year) {
     int I;
     int J;
     int K;
@@ -48,11 +47,8 @@ int main() {
     int year = 1000;
     for (int i = startJD; i < endJD; i++) {
         Julian2Greg(i, month, day, year);
-        if (month == 2 && day == 29) {
+        if(month == 2 && day == 29){
             cout << year << " is a leap year" << endl;
         }
     }
 }
-
-
-
