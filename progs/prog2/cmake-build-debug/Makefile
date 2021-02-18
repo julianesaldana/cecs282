@@ -169,6 +169,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\prog2.dir\build.make CMakeFiles/prog2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+myDate.obj: myDate.cpp.obj
+
+.PHONY : myDate.obj
+
+# target to build an object file
+myDate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prog2.dir\build.make CMakeFiles/prog2.dir/myDate.cpp.obj
+.PHONY : myDate.cpp.obj
+
+myDate.i: myDate.cpp.i
+
+.PHONY : myDate.i
+
+# target to preprocess a source file
+myDate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prog2.dir\build.make CMakeFiles/prog2.dir/myDate.cpp.i
+.PHONY : myDate.cpp.i
+
+myDate.s: myDate.cpp.s
+
+.PHONY : myDate.s
+
+# target to generate assembly for a file
+myDate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prog2.dir\build.make CMakeFiles/prog2.dir/myDate.cpp.s
+.PHONY : myDate.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -181,6 +208,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... myDate.obj
+	@echo ... myDate.i
+	@echo ... myDate.s
 .PHONY : help
 
 
