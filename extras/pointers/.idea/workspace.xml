@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="prog2" targetName="prog2" />
+      <config projectName="pointers" targetName="pointers" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45301fe4-f195-415d-ada6-8c83ac4cb5da" name="Default Changelist" comment="" />
+    <list default="true" id="92832cea-f987-49c0-a01d-14c7db0fd9ca" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1oGrJ9pEo4d9dQZD6v2jApp78dP" />
+  <component name="ProjectId" id="1ogKtEBDaDcBH2HHYPhQINuATpB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,7 +37,12 @@
     <property name="cf.first.check.clang-format" value="false" />
   </component>
   <component name="RunManager">
-    <configuration name="prog2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="prog2" TARGET_NAME="prog2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="prog2" RUN_TARGET_NAME="prog2">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pointers" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pointers" TARGET_NAME="pointers" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pointers" RUN_TARGET_NAME="pointers">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -51,14 +56,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="45301fe4-f195-415d-ada6-8c83ac4cb5da" name="Default Changelist" comment="" />
-      <created>1612923693641</created>
+      <changelist id="92832cea-f987-49c0-a01d-14c7db0fd9ca" name="Default Changelist" comment="" />
+      <created>1613703005646</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1612923693641</updated>
-      <workItem from="1612923695177" duration="66000" />
-      <workItem from="1613604663180" duration="6266000" />
-      <workItem from="1613702860247" duration="79000" />
+      <updated>1613703005646</updated>
+      <workItem from="1613703007073" duration="1685000" />
     </task>
     <servers />
   </component>
@@ -75,6 +78,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

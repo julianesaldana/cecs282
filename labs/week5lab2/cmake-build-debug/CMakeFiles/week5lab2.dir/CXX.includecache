@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Julian/Desktop/cecs282/labs/week5lab2/Can.h
+string
+-
+
+C:/Users/Julian/Desktop/cecs282/labs/week5lab2/main.cpp
+iostream
+-
+Can.h
+C:/Users/Julian/Desktop/cecs282/labs/week5lab2/Can.h
+
