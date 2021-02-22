@@ -6,14 +6,15 @@
 
 int Greg2Julian(int month, int day, int year) {
     int I = year;
-    int	J = month;
+    int J = month;
     int K = day;
 
-    int JD2 = K - 32075 + 1461 * (I + 4800 + (J - 14) / 12) / 4 + 367 * (J - 2 - (J - 14) / 12 * 12) / 12 - 3 * ((I + 4900 + (J - 14) / 12) / 100) / 4;
+    int JD2 = K - 32075 + 1461 * (I + 4800 + (J - 14) / 12) / 4 + 367 * (J - 2 - (J - 14) / 12 * 12) / 12 -
+              3 * ((I + 4900 + (J - 14) / 12) / 100) / 4;
     return JD2;
 }
 
-void Julian2Greg(int JD, int& month, int& day, int& year) {
+void Julian2Greg(int JD, int &month, int &day, int &year) {
     int I;
     int J;
     int K;
@@ -53,15 +54,19 @@ void myDate::display() {
 }
 
 void myDate::increaseDate(int n) {
-    return Julian2Greg(Greg2Julian(month, day, year) + n, month, day, year);
+    int after = Greg2Julian(month, day, year) + n;
+    Julian2Greg(after, month, day, year);
 }
 
 void myDate::decreaseDate(int n) {
-    return Julian2Greg(Greg2Julian(month, day, year) - n, month, day, year);
+    int after = Greg2Julian(month, day, year) - n;
+    Julian2Greg(after, month, day, year);
 }
 
 int myDate::daysBetween(myDate date) {
-    return Greg2Julian(date.getMonth(), date.getDay(), date.getYear()) - Greg2Julian(month, day, year);
+    int second = Greg2Julian(date.getMonth(), date.getDay(), date.getYear());
+    int original = Greg2Julian(month, day, year);
+    return second - original;
 }
 
 int myDate::getMonth() {
