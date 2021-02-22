@@ -53,15 +53,15 @@ void myDate::display() {
 }
 
 void myDate::increaseDate(int n) {
-    day += n;
+    return Julian2Greg(Greg2Julian(month, day, year) + n, month, day, year);
 }
 
 void myDate::decreaseDate(int n) {
-    day -= n;
+    return Julian2Greg(Greg2Julian(month, day, year) - n, month, day, year);
 }
 
 int myDate::daysBetween(myDate date) {
-    return abs(day - date.getDay());
+    return Greg2Julian(date.getMonth(), date.getDay(), date.getYear()) - Greg2Julian(month, day, year);
 }
 
 int myDate::getMonth() {
@@ -77,11 +77,13 @@ int myDate::getYear() {
 }
 
 int myDate::dayOfYear() {
+    // FIXME, this is just a place holder for the actual code
     int temp = (month * 30) + day;
     return temp;
 }
 
 string myDate::dayName() {
+    // FIXME, this is just a place holder for the actual code
     string days[] = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
     return days[(day % 7) - 1];
 }
