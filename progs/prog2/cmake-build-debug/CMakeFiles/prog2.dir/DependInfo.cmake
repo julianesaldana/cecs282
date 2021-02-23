@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Julian/Desktop/cecs282/progs/prog2/main.cpp" "C:/Users/Julian/Desktop/cecs282/progs/prog2/cmake-build-debug/CMakeFiles/prog2.dir/main.cpp.obj"
   "C:/Users/Julian/Desktop/cecs282/progs/prog2/myDate.cpp" "C:/Users/Julian/Desktop/cecs282/progs/prog2/cmake-build-debug/CMakeFiles/prog2.dir/myDate.cpp.obj"
   "C:/Users/Julian/Desktop/cecs282/progs/prog2/testDate.cpp" "C:/Users/Julian/Desktop/cecs282/progs/prog2/cmake-build-debug/CMakeFiles/prog2.dir/testDate.cpp.obj"
   )

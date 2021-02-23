@@ -15,12 +15,10 @@ int Greg2Julian(int month, int day, int year) {
 }
 
 void Julian2Greg(int JD, int &month, int &day, int &year) {
-    int I;
-    int J;
-    int K;
+    int I, J, K, L, N;
 
-    int L = JD + 68569;
-    int N = 4 * L / 146097;
+    L = JD + 68569;
+    N = 4 * L / 146097;
     L = L - (146097 * N + 3) / 4;
     I = 4000 * (L + 1) / 1461001;
     L = L - 1461 * I / 4 + 31;
@@ -42,9 +40,19 @@ myDate::myDate() {
 }
 
 myDate::myDate(int m, int d, int y) {
-    month = m;
-    day = d;
-    year = y;
+    int tempMonth, tempDay, tempYear;
+    int givenDate = Greg2Julian(m, d, y);
+    Julian2Greg(givenDate, tempMonth, tempDay, tempYear);
+
+    if (tempMonth == m && tempDay == d && tempYear && y) {
+        month = m;
+        day = d;
+        year = y;
+    } else {
+        month = 5;
+        day = 11;
+        year = 1959;
+    }
 }
 
 void myDate::display() {
@@ -59,14 +67,14 @@ void myDate::increaseDate(int n) {
 }
 
 void myDate::decreaseDate(int n) {
-    int after = Greg2Julian(month, day, year) - n;
-    Julian2Greg(after, month, day, year);
+    int converted = Greg2Julian(month, day, year) - n;
+    Julian2Greg(converted, month, day, year);
 }
 
 int myDate::daysBetween(myDate date) {
     int second = Greg2Julian(date.getMonth(), date.getDay(), date.getYear());
-    int original = Greg2Julian(month, day, year);
-    return second - original;
+    int first = Greg2Julian(month, day, year);
+    return second - first;
 }
 
 int myDate::getMonth() {
@@ -82,13 +90,13 @@ int myDate::getYear() {
 }
 
 int myDate::dayOfYear() {
-    // FIXME, this is just a place holder for the actual code
-    int temp = (month * 30) + day;
-    return temp;
+    int beginning = Greg2Julian(1, 1, year);
+    int current = Greg2Julian(month, day, year);
+    return current - beginning;
 }
 
 string myDate::dayName() {
-    // FIXME, this is just a place holder for the actual code
     string days[] = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
-    return days[(day % 7) - 1];
+    int julianDate = Greg2Julian(month, day, year);
+    return days[julianDate % 7];
 }

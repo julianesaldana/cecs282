@@ -142,6 +142,33 @@ prog2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\prog2.dir\build.make CMakeFiles/prog2.dir/build
 .PHONY : prog2/fast
 
+main.obj: main.cpp.obj
+
+.PHONY : main.obj
+
+# target to build an object file
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prog2.dir\build.make CMakeFiles/prog2.dir/main.cpp.obj
+.PHONY : main.cpp.obj
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prog2.dir\build.make CMakeFiles/prog2.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prog2.dir\build.make CMakeFiles/prog2.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 myDate.obj: myDate.cpp.obj
 
 .PHONY : myDate.obj
@@ -205,6 +232,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... prog2
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 	@echo ... myDate.obj
 	@echo ... myDate.i
 	@echo ... myDate.s

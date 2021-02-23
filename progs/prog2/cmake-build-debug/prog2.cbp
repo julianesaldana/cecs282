@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Julian/Desktop/cecs282/progs/prog2/main.cpp">
+			<Option target="prog2"/>
+		</Unit>
 		<Unit filename="C:/Users/Julian/Desktop/cecs282/progs/prog2/myDate.cpp">
 			<Option target="prog2"/>
 		</Unit>
