@@ -90,7 +90,7 @@ int myDate::getYear() {
 }
 
 int myDate::dayOfYear() {
-    int beginning = Greg2Julian(1, 1, year);
+    int beginning = Greg2Julian(1, 0, year);
     int current = Greg2Julian(month, day, year);
     return current - beginning;
 }
