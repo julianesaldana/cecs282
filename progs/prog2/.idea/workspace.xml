@@ -38,14 +38,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
-    <configuration name="prog2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="prog2" TARGET_NAME="prog2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="prog2" RUN_TARGET_NAME="prog2">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="prog2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="prog2" TARGET_NAME="prog2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="prog2" RUN_TARGET_NAME="prog2">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -63,6 +63,8 @@
       <workItem from="1613978061675" duration="1893000" />
       <workItem from="1614026280437" duration="448000" />
       <workItem from="1614104281974" duration="3698000" />
+      <workItem from="1614108211367" duration="343000" />
+      <workItem from="1614108590740" duration="336000" />
     </task>
     <servers />
   </component>
