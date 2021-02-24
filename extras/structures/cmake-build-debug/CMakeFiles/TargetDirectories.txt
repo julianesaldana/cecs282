@@ -1,0 +1,3 @@
+C:/Users/Julian/Desktop/cecs282/extras/structures/cmake-build-debug/CMakeFiles/structures.dir
+C:/Users/Julian/Desktop/cecs282/extras/structures/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Julian/Desktop/cecs282/extras/structures/cmake-build-debug/CMakeFiles/rebuild_cache.dir

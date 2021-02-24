@@ -6,3 +6,15 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Julian/Desktop/cecs282/progs/prog2/myDate.h
+iostream
+-
+
+C:/Users/Julian/Desktop/cecs282/progs/prog2/testDate.cpp
+myDate.h
+C:/Users/Julian/Desktop/cecs282/progs/prog2/myDate.h
+iostream
+-
+cstdio
+-
+

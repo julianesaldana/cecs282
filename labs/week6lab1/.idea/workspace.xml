@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="prog2" targetName="prog2" />
+      <config projectName="week6lab1" targetName="week6lab1" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45301fe4-f195-415d-ada6-8c83ac4cb5da" name="Default Changelist" comment="" />
+    <list default="true" id="3a036559-84d8-4508-9218-7ddf758a95b8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1oGrJ9pEo4d9dQZD6v2jApp78dP" />
+  <component name="ProjectId" id="1ouaHaarCClRq4z8jxOA7GW9Hq3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,10 +35,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
-    <configuration name="prog2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="prog2" TARGET_NAME="prog2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="prog2" RUN_TARGET_NAME="prog2">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="week6lab1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week6lab1" TARGET_NAME="week6lab1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week6lab1" RUN_TARGET_NAME="week6lab1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -52,21 +56,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="45301fe4-f195-415d-ada6-8c83ac4cb5da" name="Default Changelist" comment="" />
-      <created>1612923693641</created>
+      <changelist id="3a036559-84d8-4508-9218-7ddf758a95b8" name="Default Changelist" comment="" />
+      <created>1614138841625</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1612923693641</updated>
-      <workItem from="1612923695177" duration="66000" />
-      <workItem from="1613604663180" duration="6266000" />
-      <workItem from="1613702860247" duration="79000" />
-      <workItem from="1613978061675" duration="1893000" />
-      <workItem from="1614026280437" duration="448000" />
-      <workItem from="1614104281974" duration="3698000" />
-      <workItem from="1614108211367" duration="343000" />
-      <workItem from="1614108590740" duration="336000" />
-      <workItem from="1614109830225" duration="44000" />
-      <workItem from="1614135162561" duration="6000" />
+      <updated>1614138841625</updated>
+      <workItem from="1614138843095" duration="14000" />
     </task>
     <servers />
   </component>
@@ -83,6 +78,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
