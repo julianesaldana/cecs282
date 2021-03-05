@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Julian/Desktop/cecs282/progs/prog3/main.cpp
+iostream
+-
+myDate.h
+C:/Users/Julian/Desktop/cecs282/progs/prog3/myDate.h
+cstdlib
+-
+
+C:/Users/Julian/Desktop/cecs282/progs/prog3/myDate.h
+iostream
+-
+
