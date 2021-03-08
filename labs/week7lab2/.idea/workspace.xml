@@ -37,11 +37,6 @@
     <property name="cf.first.check.clang-format" value="false" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="week7lab2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week7lab2" TARGET_NAME="week7lab2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week7lab2" RUN_TARGET_NAME="week7lab2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -63,6 +58,7 @@
       <updated>1614915429272</updated>
       <workItem from="1614915430475" duration="321000" />
       <workItem from="1614915869021" duration="226000" />
+      <workItem from="1615230798968" duration="27000" />
     </task>
     <servers />
   </component>
