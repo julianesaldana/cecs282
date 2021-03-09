@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Julian/Desktop/cecs282/progs/prog3/main.cpp" "C:/Users/Julian/Desktop/cecs282/progs/prog3/cmake-build-debug/CMakeFiles/prog3.dir/main.cpp.obj"
-  "C:/Users/Julian/Desktop/cecs282/progs/prog3/myDate.cpp" "C:/Users/Julian/Desktop/cecs282/progs/prog3/cmake-build-debug/CMakeFiles/prog3.dir/myDate.cpp.obj"
+  "/Users/juliansaldana/Desktop/cecs282/progs/prog3/main.cpp" "/Users/juliansaldana/Desktop/cecs282/progs/prog3/cmake-build-debug/CMakeFiles/prog3.dir/main.cpp.o"
+  "/Users/juliansaldana/Desktop/cecs282/progs/prog3/myDate.cpp" "/Users/juliansaldana/Desktop/cecs282/progs/prog3/cmake-build-debug/CMakeFiles/prog3.dir/myDate.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

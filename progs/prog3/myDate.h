@@ -37,6 +37,8 @@ public:
     int dayOfYear();
 
     string dayName();
+
+    string toString();
 };
 
 

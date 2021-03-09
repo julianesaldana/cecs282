@@ -9,9 +9,9 @@ int Greg2Julian(int month, int day, int year) {
     int J = month;
     int K = day;
 
-    int JD2 = K - 32075 + 1461 * (I + 4800 + (J - 14) / 12) / 4 + 367 * (J - 2 - (J - 14) / 12 * 12) / 12 -
+    int JD = K - 32075 + 1461 * (I + 4800 + (J - 14) / 12) / 4 + 367 * (J - 2 - (J - 14) / 12 * 12) / 12 -
               3 * ((I + 4900 + (J - 14) / 12) / 100) / 4;
-    return JD2;
+    return JD;
 }
 
 void Julian2Greg(int JD, int &month, int &day, int &year) {
@@ -34,9 +34,12 @@ void Julian2Greg(int JD, int &month, int &day, int &year) {
 }
 
 myDate::myDate() {
-    month = 5;
-    day = 11;
-    year = 1959;
+    int randomMonth = rand() % 12 + 1;
+    int randomDay = rand() % 31 + 1;
+    int randomYear = rand() % 10 + 1995;
+    month = randomMonth;
+    day = randomDay;
+    year = randomYear;
 }
 
 myDate::myDate(int m, int d, int y) {
@@ -99,4 +102,10 @@ string myDate::dayName() {
     string days[] = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
     int julianDate = Greg2Julian(month, day, year);
     return days[julianDate % 7];
+}
+
+string myDate::toString() {
+    string months[12] = {"January", "February", "March", "April", "May", "June", "July", "August", "September",
+                         "October", "November", "December"};
+    return months[month - 1] + " " + to_string(day) + ", " + to_string(year);
 }
