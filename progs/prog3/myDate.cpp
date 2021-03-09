@@ -34,9 +34,9 @@ void Julian2Greg(int JD, int &month, int &day, int &year) {
 }
 
 myDate::myDate() {
-    month = 5;
-    day = 11;
-    year = 1959;
+    month = 1;
+    day = 1;
+    year = 1995;
 }
 
 myDate::myDate(int m, int d, int y) {
@@ -48,10 +48,10 @@ myDate::myDate(int m, int d, int y) {
         month = m;
         day = d;
         year = y;
-    } else {
-        month = 5;
-        day = 11;
-        year = 1959;
+    } else {    // small modification to original myDate, default date will be set to smallest value that it can be for this project
+        month = 1;
+        day = 1;
+        year = 1995;
     }
 }
 

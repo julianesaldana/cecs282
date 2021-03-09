@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="prog3" targetName="prog3" />
+      <config projectName="test" targetName="test" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98179082-deb2-41b8-b57b-a84a65d39cb8" name="Default Changelist" comment="" />
+    <list default="true" id="83c0bdd9-3598-4e4b-9c3c-a1419a7aee17" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,15 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="ProjectId" id="1pVmhZEP7bjjxKLDHDW15pP0d00" />
+  <component name="ProjectId" id="1pWxQUqFXqzOtAx49N3unToGQ40" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,12 +37,12 @@
     <property name="cf.first.check.clang-format" value="false" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="prog3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="prog3" TARGET_NAME="prog3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="prog3" RUN_TARGET_NAME="prog3">
+    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="test" RUN_TARGET_NAME="test">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -64,13 +56,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="98179082-deb2-41b8-b57b-a84a65d39cb8" name="Default Changelist" comment="" />
-      <created>1615276752986</created>
+      <changelist id="83c0bdd9-3598-4e4b-9c3c-a1419a7aee17" name="Default Changelist" comment="" />
+      <created>1615312631807</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1615276752986</updated>
-      <workItem from="1615276754394" duration="421000" />
-      <workItem from="1615310237770" duration="8700000" />
+      <updated>1615312631807</updated>
+      <workItem from="1615312633086" duration="2424000" />
     </task>
     <servers />
   </component>
@@ -87,6 +78,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
