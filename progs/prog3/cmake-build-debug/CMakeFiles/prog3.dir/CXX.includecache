@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Julian/Desktop/cecs282/progs/prog3/myDate.cpp
+C:/Users/Julian/Desktop/cecs282/progs/prog3/main.cpp
+iostream
+-
+cstdlib
+-
+iomanip
+-
+cstring
+-
 myDate.h
 C:/Users/Julian/Desktop/cecs282/progs/prog3/myDate.h
 
