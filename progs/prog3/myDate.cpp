@@ -1,5 +1,5 @@
 //
-// Created by Julian on 3/4/2021.
+// Created by Julian on 3/8/2021.
 //
 
 #include "myDate.h"
@@ -10,7 +10,7 @@ int Greg2Julian(int month, int day, int year) {
     int K = day;
 
     int JD = K - 32075 + 1461 * (I + 4800 + (J - 14) / 12) / 4 + 367 * (J - 2 - (J - 14) / 12 * 12) / 12 -
-              3 * ((I + 4900 + (J - 14) / 12) / 100) / 4;
+             3 * ((I + 4900 + (J - 14) / 12) / 100) / 4;
     return JD;
 }
 
@@ -34,12 +34,9 @@ void Julian2Greg(int JD, int &month, int &day, int &year) {
 }
 
 myDate::myDate() {
-    int randomMonth = rand() % 12 + 1;
-    int randomDay = rand() % 31 + 1;
-    int randomYear = rand() % 10 + 1995;
-    month = randomMonth;
-    day = randomDay;
-    year = randomYear;
+    month = 5;
+    day = 11;
+    year = 1959;
 }
 
 myDate::myDate(int m, int d, int y) {

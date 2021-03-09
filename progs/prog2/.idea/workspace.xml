@@ -38,11 +38,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="prog2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="prog2" TARGET_NAME="prog2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="prog2" RUN_TARGET_NAME="prog2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -68,6 +63,10 @@
       <workItem from="1614109830225" duration="44000" />
       <workItem from="1614135162561" duration="6000" />
       <workItem from="1615230834255" duration="107000" />
+      <workItem from="1615233439834" duration="37000" />
+      <workItem from="1615233578890" duration="550000" />
+      <workItem from="1615271650065" duration="27000" />
+      <workItem from="1615271697310" duration="278000" />
     </task>
     <servers />
   </component>

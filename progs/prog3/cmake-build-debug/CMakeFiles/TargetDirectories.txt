@@ -1,3 +1,3 @@
-/Users/juliansaldana/Desktop/cecs282/progs/prog3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/juliansaldana/Desktop/cecs282/progs/prog3/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/juliansaldana/Desktop/cecs282/progs/prog3/cmake-build-debug/CMakeFiles/prog3.dir
+C:/Users/Julian/Desktop/cecs282/progs/prog3/cmake-build-debug/CMakeFiles/prog3.dir
+C:/Users/Julian/Desktop/cecs282/progs/prog3/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Julian/Desktop/cecs282/progs/prog3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
