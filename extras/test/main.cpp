@@ -20,9 +20,16 @@ void populate(Student **reference) {
     }
 }
 
+int sum_array(int arr[]) {
+    int sum = 0;
+    for (int i = 0; i < 10; i++){
+        sum += arr[i];
+    }
+    return sum;
+}
+
 int main() {
-//    Student *students[10];
-//    Student **reference = students;
-//    populate(reference);
-//    display(reference);
+    int num[10] = {1,2,3,4,5,6,7,8,9,10};
+    cout << sum_array(num);
+    return 0;
 }
